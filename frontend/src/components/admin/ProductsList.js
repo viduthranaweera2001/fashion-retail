@@ -22,7 +22,6 @@ const ProductsList = ({ history }) => {
 
 	const alert = useAlert(); //display alert messages
 	const dispatch = useDispatch(); //dispatch actions
-
 	//select and destructure the "loading", "error", and "products" states
 	const { loading, error, products } = useSelector((state) => state.products);
 	//select and destructure the "error" and "isDeleted" states
